@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "Este projeto web foi desenvolvido usando as seguintes ferramentas:",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "abbrev": "^1.1.1",
     "anymatch": "^3.1.2",
@@ -88,10 +92,6 @@
     "setprototypeof": "^1.2.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pauloalissonsilva/Nodejs-blog.git"
